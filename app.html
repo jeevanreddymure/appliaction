@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+    
+    <title>bill genrator</title>
+</head>
+<body>
+        <h1 align="center">Maitre D</h1>
+        <main>
+       <br>
+       <br>
+       <div >
+       <table align="center">
+        <tr>
+            <td>
+                <label >Total: $</label>
+                <input id="Total" type="text"   placeholder="0.00" value="" >
+            </td>
+        </tr>
+            <tr>
+            <td>
+                <label>Tip: <span id="Tip">$0.00</span></label>
+            </td>
+            <td>
+                <label >Rate: %</label>
+                <input id="rate" type="text"  placeholder="0.00" value="">
+            </td>
+        </tr>
+       <tr>
+           <td>
+               <label>Tax: <span id="Tax">$0.00</span></label>
+           </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Grand Total: <span id="grandtotal">$0.00</span></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                    <button id="calculate">Calculate</button>
+            </td>
+        </tr>
+       </table>
+       <br>
+       <br>
+      </main>
+       <script src="app.js"></script>
+    </div>
+    </body>
+</html>
+
