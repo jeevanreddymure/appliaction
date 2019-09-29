@@ -1,14 +1,26 @@
 function app()
 {
-     const Total=parseFloat(document.querySelector('#Total').value)
-     const Rate=parseFloat(document.querySelector('#rate').value)
-     console.log(Rate);
-     const Tip=Total*(Rate/100)
-     const TaxRate=5.5
-     const Tax=Total*(TaxRate/100)
-     const GrandTotal=Total+Tip+Tax;
-     document.querySelector('#Tip').innerHTML=`$${Tip.toFixed(2)}`
-     document.querySelector('#Tax').innerHTML=`$${Tax.toFixed(2)}`
-     document.querySelector('#grandtotal').innerHTML=`$${GrandTotal.toFixed(2)}`
+     const String=(document.querySelector('#Total').value)
+     const String1=(document.querySelector('#rate').value)
+     const Stringm= (document.querySelector('#st1').value)
+     const comp1= string.length()
+     const comp2= string1.length()
+     const comp3= stringm.length()
+     if(comp1>comp2&& comp2<comp3)
+     {
+       var w= com2
+       }
+  else if(comp3>comp1)
+  {
+      var w= comp1
+      }
+  else
+  {
+    var w = comp3
+    }
+
+
+     document.querySelector('#w').innerHTML=`$${w.toFixed(2)}`
+
 }
      document.querySelector('#calculate').addEventListener('click',app)
