@@ -6,21 +6,22 @@ function app()
      var comp1= string.length();
      var comp2= string1.length();
      var comp3= stringm.length();
+     var w;
      if(comp1 > comp2 && comp2<comp3)
      {
-       var w= com2;
+        w= com2;
        }
   else if(comp3 > comp1)
   {
-      var w= comp1;
+       w= comp1;
       }
   else
   {
-    var w = comp3;
+     w = comp3;
     }
 
 
-    var total= document.getElementById('#w').innerHTML= w ;
+     document.getElementById('#w').innerHTML= w ;
 
 }
      document.querySelector('#calculate').addEventListener('click',app)
